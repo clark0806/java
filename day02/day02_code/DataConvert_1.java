@@ -16,9 +16,9 @@ public class DataConvert_1{
 		
 		//被转后的数据类型  变量名 = (被转换后数据类型)要被转的数据
 		int i = (int)d;
-		System.out.println(i);
+		System.out.println(i); // 3
 		
 		byte b = (byte)210;
-		System.out.println(b);
+		System.out.println(b); // -46
 	}
 }

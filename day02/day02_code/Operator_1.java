@@ -19,7 +19,7 @@ public class Operator_1{
 		
 		int m = 5;
 		int n = ++m;
-		System.out.println(m);
-		System.out.println(n);
+		System.out.println(m); //6
+		System.out.println(n); //6
 	}
 }
