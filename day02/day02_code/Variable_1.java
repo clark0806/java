@@ -11,3 +11,4 @@ public class Variable_1{
 		int i =10;
 	}
 }
+// ÎÒ°®java

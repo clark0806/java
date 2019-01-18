@@ -37,3 +37,8 @@ public class Operator{
 		System.out.println(b);
 	}
 }
+// 5+5=55
+// 11
+// 2
+// 4
+// 5

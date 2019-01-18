@@ -11,14 +11,19 @@
 */
 public class Operator_4{
 	public static void main(String[] args){
-		System.out.println( false & true );
+		System.out.println( false & true );//false
 		System.out.println( true | true );
 		System.out.println( false ^ false );//F
 		System.out.println( true ^ false );//T
 		System.out.println( true ^ true );//F 
-		
-		
 		System.out.println( !true );
+
+// false
+// true
+// false
+// true
+// false
+// false
 		System.out.println( "--------------------------" );
 		int i = 3;
 		int j = 4;
@@ -31,3 +36,11 @@ public class Operator_4{
 		System.out.println(j);
 	}
 }
+// --------------------------
+// false
+// 3
+// 4
+// true
+// 3
+// 4
+
