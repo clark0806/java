@@ -35,3 +35,13 @@ public class Demo_1{
 		System.out.println("HelloWorld");
 	}
 }
+
+// 50
+// 3
+// 41
+// 14
+// 5.0
+// true
+// false
+// a
+// HelloWorld
