@@ -12,3 +12,13 @@ public class HelloWorld{
 		System.out.println("HelloWorld");
 	}
 }
+
+// 错误: 编码UTF8的不可映射字符 解决方法：
+
+// Linux下为UTF-8编码，javac编译gbk编码的java文件时，容易出现“错误: 编码UTF8的不可映射字符”
+//
+// 解决方法是添加encoding 参数：javac -encoding gbk WordCount.java
+//
+// Windows下为GBK编码，javac编译utf-8编码的java文件时，容易出现“错误: 编码GBK的不可映射字符”
+//
+// 解决方法是添加encoding 参数：javac -encoding utf-8 WordCount.java
