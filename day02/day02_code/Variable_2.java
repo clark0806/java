@@ -12,8 +12,8 @@ public class Variable_2{
 		   int j = 10;
 		   System.out.println(j);
 		 }
-		
-		
+
+
 		int i =1;
 	}
 }

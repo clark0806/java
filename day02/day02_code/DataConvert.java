@@ -8,13 +8,18 @@ public class DataConvert{
 		//定义doublel类型的变量
 		double d = 1000; //出现类型自动转换,int自动转成double
 		System.out.println(d);
-		
+
 		int i = 100;
 		double d2 = i;//出现类型自动转换,int自动转成double
 		System.out.println(d2);
-		
+
 		byte b = 10;
 		int j = b; //自动类型转换,byte自动转成int
 		System.out.println(j);
 	}
 }
+
+
+// 1000.0
+// 100.0
+// 10

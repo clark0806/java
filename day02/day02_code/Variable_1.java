@@ -7,8 +7,10 @@ public class Variable_1{
 		String s = "我爱java";
 		//String 属于引用类型,定义方式,和基本类型一样
 		System.out.println(s);
-		
+
 		int i =10;
 	}
 }
+
+
 // 我爱java
