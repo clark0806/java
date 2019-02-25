@@ -39,6 +39,24 @@ public class ScannerDemo{
 	}
 }
 
+// 打印
+
+// 正常输入
+// 12
+// 12
+// 13
+// 13
+
+// 输入 a
+// a
+// Exception in thread "main" java.util.InputMismatchException
+//         at java.util.Scanner.throwFor(Unknown Source)
+//         at java.util.Scanner.next(Unknown Source)
+//         at java.util.Scanner.nextInt(Unknown Source)
+//         at java.util.Scanner.nextInt(Unknown Source)
+//         at ScannerDemo.main(ScannerDemo.java:32)
+
+
 
 
 

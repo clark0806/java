@@ -5,6 +5,7 @@ public class WhileForDemo{
 		/*while(true){
 			
 		}*/
+		
 		//for–Œ ΩÀ¿—≠ª∑
 		for( ; true ; ){
 			

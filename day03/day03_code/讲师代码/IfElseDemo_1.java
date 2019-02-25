@@ -23,3 +23,7 @@ public class IfElseDemo_1{
 		System.out.println(k+" 是最大值");
 	}
 }
+
+// 打印
+// 15 是最大值
+// 15 是最大值

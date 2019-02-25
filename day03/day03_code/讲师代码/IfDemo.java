@@ -21,3 +21,7 @@ public class IfDemo{
 		  System.out.println(i);
 	}
 }
+
+
+// ¥Ú”°
+// 5
