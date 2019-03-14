@@ -36,13 +36,13 @@ public class ArrayDemo{
 		System.out.println(arr[0]);
 		System.out.println(arr[1]);
 		System.out.println(arr[2]);
-		
-		
+
 		System.out.println(arr.length);
-		
-		
-		
-		
-		
 	}
 }
+//打印（证实数组元素默认值为0）
+//		[I@15db9742
+//		0
+//		0
+//		0
+//		3

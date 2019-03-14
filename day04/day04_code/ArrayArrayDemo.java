@@ -18,3 +18,8 @@ public class ArrayArrayDemo{
 		System.out.println(arr[2][3]);
 	}
 }
+
+//¥Ú”°£∫
+//		[[I@15db9742
+//		[I@6d06d69c
+//		0

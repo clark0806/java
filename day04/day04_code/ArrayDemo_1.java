@@ -12,3 +12,6 @@ public class ArrayDemo_1{
 		System.out.println(arr[2]);
 	}
 }
+//²Â²â´òÓ¡ÕıÈ·
+//3
+//0

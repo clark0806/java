@@ -24,3 +24,7 @@ public class ArrayArrayDemo_1{
 		System.out.println(arr[3][0]);
 	}
 }
+
+//¥Ú”°
+//		7
+//		0

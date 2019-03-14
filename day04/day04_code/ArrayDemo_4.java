@@ -17,3 +17,5 @@ public class ArrayDemo_4{
 		System.out.println(arr2[2]);//java.lang.NullPointerException
 	}
 }
+
+// 知道这两个异常 ArrayIndexOutOfBoundsException NullPointerException

@@ -31,3 +31,9 @@ public class ArrayArrayDemo_3{
 		System.out.println("本公司总金额 "+sum);
 	}
 }
+
+//打印
+//		每个小组总金额 23
+//		每个小组总金额 66
+//		每个小组总金额 130
+//		本公司总金额 219

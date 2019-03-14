@@ -20,3 +20,9 @@ public class ArrayDemo_2{
 		System.out.println(arr2[1]);
 	}
 }
+//²Â²â´òÓ¡ÕıÈ·
+//6
+//9
+//==================
+//5
+//2
