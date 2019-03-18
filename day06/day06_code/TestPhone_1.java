@@ -21,3 +21,8 @@ public class TestPhone_1{
 		System.out.println(p2.size);
 	}
 }
+
+//打印
+//		锤子
+//		华为
+//		0.0

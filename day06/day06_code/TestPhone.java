@@ -27,3 +27,6 @@ public class TestPhone{
 		System.out.println(p.color+"  "+p.brand+"  "+p.size);
 	}
 }
+
+//打印
+//		土豪金  爱立信  5.0

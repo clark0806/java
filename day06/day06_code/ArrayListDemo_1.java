@@ -17,10 +17,10 @@ public class ArrayListDemo_1{
 		//定义集合,存储字符串元素
 		ArrayList<String> array = new ArrayList<String>();
 		//调用集合方法add存储元素
-		array.add("abc");
-		array.add("itcast");
-	    array.add("love");
-		array.add("java");
+		array.add("第1个元素");
+		array.add("第2个元素");
+	    array.add("第3个元素");
+		array.add("第4个元素");
 		//输出集合的长度,调用集合方法size, size方法的返回值类型 int
 		int size = array.size();
 		System.out.println(size);
@@ -37,3 +37,12 @@ public class ArrayListDemo_1{
 		System.out.println(array.get(3));
 	}
 }
+
+//打印
+//		4
+//		第2个元素
+//		第1个元素
+//		第2个元素
+//		第3个元素
+//		第4个元素
+
