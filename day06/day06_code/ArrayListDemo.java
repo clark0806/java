@@ -15,20 +15,38 @@
 	 注意: 集合存储的数据,8个基本类型对应8个引用类型
 	 存储引用类型,不存储基本类型
 */
+//import java.util.ArrayList;
+//public class ArrayListDemo{
+//	public static void main(String[] args){
+//		//创建集合容器,指定存储的数据类型
+//		//存储字符串
+//		ArrayList<String> array = new ArrayList<String>();
+//
+//		//创建集合容器,存储整数
+//		ArrayList<Integer> array2 = new ArrayList<Integer>();
+//
+//		//创建集合容器,存储手机类型
+//		ArrayList<Phone> array3 = new ArrayList<Phone>();
+//	}
+//}
+
+// 1
 import java.util.ArrayList;
 public class ArrayListDemo{
 	public static void main(String[] args){
-		//创建集合容器,指定存储的数据类型
-		//存储字符串
 		ArrayList<String> array = new ArrayList<String>();
-		
-		//创建集合容器,存储整数
+		System.out.println(array);
 		ArrayList<Integer> array2 = new ArrayList<Integer>();
-		
-		//创建集合容器,存储手机类型
+		System.out.println(array2);
 		ArrayList<Phone> array3 = new ArrayList<Phone>();
+		System.out.println(array3);
 	}
 }
+//打印
+//		[]
+//		[]
+//		[]
+
 
 
 
