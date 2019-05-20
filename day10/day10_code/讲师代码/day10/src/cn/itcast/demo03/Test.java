@@ -17,3 +17,6 @@ public class Test {
 	
 	}
 }
+
+//打印
+//		子类的方法show2
