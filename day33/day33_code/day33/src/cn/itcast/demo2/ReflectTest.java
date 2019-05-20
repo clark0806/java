@@ -29,3 +29,6 @@ public class ReflectTest {
 		
 	}
 }
+
+//¥Ú”°
+//		[a, 150, 1500, 15000]

@@ -27,3 +27,6 @@ public class ReflectDemo1 {
 		System.out.println(obj.toString());
 	}
 }
+
+//¥Ú”°
+//		Person [name=null, age=0]

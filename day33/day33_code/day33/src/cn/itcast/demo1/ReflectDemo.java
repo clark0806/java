@@ -23,3 +23,8 @@ public class ReflectDemo {
 		System.out.println(c2);
 	}
 }
+
+//¥Ú”°
+//class cn.itcast.demo1.Person
+//class cn.itcast.demo1.Person
+//class cn.itcast.demo1.Person

@@ -6,3 +6,6 @@ public class Test {
 		 f.show();
 	}
 }
+
+//打印
+//		最终类的方法
