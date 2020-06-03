@@ -23,7 +23,7 @@ public class GenericDemo {
 		Iterator<String> it = coll.iterator();
 		while(it.hasNext()){
 			String s = it.next();
-			System.out.println(s.length());
+			System.out.println(s.length()); // 3 4 9
 		}
 	}
 }

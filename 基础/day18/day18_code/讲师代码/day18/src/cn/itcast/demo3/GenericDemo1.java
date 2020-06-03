@@ -34,7 +34,7 @@ public class GenericDemo1 {
 		Integer[] i = new Integer[array.size()];
 		Integer [] j = array.toArray(i);
 		for(Integer k : j){
-			System.out.println(k);
+			System.out.println(k); // 123 456
 		}
 
 	}

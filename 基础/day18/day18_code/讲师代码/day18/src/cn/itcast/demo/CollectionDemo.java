@@ -13,7 +13,7 @@ import java.util.Collection;
  */
 public class CollectionDemo {
 	public static void main(String[] args) {
-		function_3();
+		function_1();
 	}
 	/*
 	 * Collection接口方法
@@ -32,6 +32,11 @@ public class CollectionDemo {
 		boolean b = coll.remove("money");
 		System.out.println(b);
 		System.out.println(coll);
+
+// 打印如下：
+//		[abc, money, itcast, itheima, money, 123]
+//		true
+//		[abc, itcast, itheima, money, 123]
 	}
 	
 	/*  Collection接口方法
@@ -50,6 +55,14 @@ public class CollectionDemo {
 		for(int i = 0 ; i < objs.length ; i++){
 			System.out.println(objs[i]);
 		}
+
+//	打印如下：
+//		abc
+//		itcast
+//		itheima
+//		money
+//		123
+
 	}
 	/*
 	 * 学习Java中三种长度表现形式
@@ -72,7 +85,7 @@ public class CollectionDemo {
 		coll.add("123");
 		
 		boolean b = coll.contains("itcast");
-		System.out.println(b);
+		System.out.println(b); // true
 	}
 
 

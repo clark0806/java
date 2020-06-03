@@ -34,6 +34,9 @@ public class GenericDemo {
 		while(it.hasNext()){
 			//it.next()获取的对象,什么类型
 			System.out.println(it.next());
+//	打印：
+//	123 456
+//	789	890
 		}
 	}
 }

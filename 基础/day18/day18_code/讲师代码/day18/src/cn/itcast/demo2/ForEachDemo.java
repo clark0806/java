@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import cn.itcast.demo.Person;
 public class ForEachDemo {
 	public static void main(String[] args) {
-		function_2();
+		function();
 	}
 	/*
 	 *  增强for循环遍历集合
@@ -27,6 +27,9 @@ public class ForEachDemo {
 		array.add(new Person("b",10));
 		for(Person p : array){
 			System.out.println(p);
+//	打印：
+//			a...20
+//			b...10
 		}
 	}
 	
@@ -35,7 +38,7 @@ public class ForEachDemo {
 		//for对于对象数组遍历的时候,能否调用对象的方法呢
 		String[] str = {"abc","itcast","cn"};
 		for(String s : str){
-			System.out.println(s.length());
+			System.out.println(s.length()); // 3 6 2
 		}
 	}
 	
@@ -47,9 +50,9 @@ public class ForEachDemo {
 	public static void function(){
 		int[] arr = {3,1,9,0};
 		for(int i : arr){
-			System.out.println(i+1);
+			System.out.println(i+1); // 4 2 10 1
 		}
-		System.out.println(arr[0]);
+		System.out.println(arr[0]); // 3
 	}
 }
 
