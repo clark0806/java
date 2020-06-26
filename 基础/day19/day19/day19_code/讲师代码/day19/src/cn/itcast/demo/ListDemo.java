@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class ListDemo {
 	public static void main(String[] args) {
-		function_2();
+		function();
 	}
 	/*
 	 *  E set(int index, E)
@@ -29,8 +29,8 @@ public class ListDemo {
 		list.add(4);
 		
 		Integer i = list.set(0, 5);
-		System.out.println(i);
-		System.out.println(list);
+		System.out.println(i); // 1
+		System.out.println(list); // [5, 2, 3, 4]
 	}
 	
 	/*
@@ -46,8 +46,8 @@ public class ListDemo {
 		list.add(1.4);
 		
 		Double d = list.remove(0);
-		System.out.println(d);
-		System.out.println(list);
+		System.out.println(d); // 1.1
+		System.out.println(list); // [1.2, 1.3, 1.4]
 	}
 	
 	/*
@@ -64,9 +64,9 @@ public class ListDemo {
 		list.add("abc2");
 		list.add("abc3");
 		list.add("abc4");
-		System.out.println(list);
+		System.out.println(list); // [abc1, abc2, abc3, abc4]
 		
 		list.add(1, "itcast");
-		System.out.println(list);
+		System.out.println(list); // [abc1, itcast, abc2, abc3, abc4]
 	}
 }

@@ -19,6 +19,6 @@ public class LinkedHashSetDemo {
 		link.add(33);
 		link.add(66);
 		link.add(11);
-		System.out.println(link);
+		System.out.println(link); // [123, 44, 33, 66, 11]
 	}
 }

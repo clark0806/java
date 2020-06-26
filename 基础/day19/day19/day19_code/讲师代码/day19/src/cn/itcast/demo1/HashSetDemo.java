@@ -32,5 +32,15 @@ public class HashSetDemo {
 	}
 }
 
+// ¥Ú”°£∫
+//		java
+//		itcast
+//		heima
+//		cn
+//		==============
+//		java
+//		itcast
+//		heima
+//		cn
 
 

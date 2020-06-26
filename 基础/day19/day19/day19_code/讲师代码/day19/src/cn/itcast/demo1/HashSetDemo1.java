@@ -29,6 +29,6 @@ public class HashSetDemo1 {
 		setPerson.add(new Person("c",25));
 		setPerson.add(new Person("d",19));
 		setPerson.add(new Person("e",17));
-		System.out.println(setPerson);
+		System.out.println(setPerson); // [c..25, b..10, d..19, e..17, a..11]
 	}
 }

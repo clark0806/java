@@ -26,6 +26,12 @@ public class ListDemo1 {
 				list.add("ABC3");
 			}
 			System.out.println(s);
+
+// ¥Ú”°£∫
+//			abc1
+//			abc2
+//			abc3
+//			Exception in thread "main" java.util.ConcurrentModificationException
 		}
 	}
 }

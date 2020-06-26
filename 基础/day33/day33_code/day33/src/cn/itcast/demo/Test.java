@@ -5,3 +5,5 @@ public class Test {
 	  new Son();
 	}
 }
+
+// 打印 !!!
