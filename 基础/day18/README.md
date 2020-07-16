@@ -441,13 +441,13 @@ ArrayList类    LinkedList类                                 HashSet类     Lin
       //该方法，用来把集合元素存储到指定数据类型的数组中，返回已存储集合元素的数组
 
       使用格式：调用方法时，确定泛型的类型
-    例如:
+    例如:
           ArrayList<String> list = new ArrayList<String>();
           String[] arr = new String[100];
           String[] result = list.toArray(arr);
        此时，变量T的值就是String类型。变量T，可以与定义集合的泛型不同
        public <String> String[] toArray(String[] a){  } 
-    
+    
 
       例如:
           ArrayList<String> list = new ArrayList<String>();

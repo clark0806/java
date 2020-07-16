@@ -23,8 +23,8 @@
 ### 02List接口的特有方法
 	A:List接口的特有方法(带索引的方法)
    a:增加元素方法
-   add(Object e)：向集合末尾处，添加指定的元素 
-   add(int index, Object e)   向集合指定索引处，添加指定的元素，原有元素依次后移
+   add(Object e)：向集合末尾处，添加指定的元素 
+   add(int index, Object e)   向集合指定索引处，添加指定的元素，原有元素依次后移
      
      /*
        *  add(int index, E)
@@ -47,8 +47,8 @@
       }
 
    b:删除元素删除
-   remove(Object e)：将指定元素对象，从集合中删除，返回值为被删除的元素
-   remove(int index)：将指定索引处的元素，从集合中删除，返回值为被删除的元素
+   remove(Object e)：将指定元素对象，从集合中删除，返回值为被删除的元素
+   remove(int index)：将指定索引处的元素，从集合中删除，返回值为被删除的元素
      /*
        *  E remove(int index)
        *  移除指定索引上的元素
@@ -66,7 +66,7 @@
         System.out.println(list);
       }
    c:替换元素方法
-   set(int index, Object e)：将指定索引处的元素，替换成指定的元素，返回值为替换前的元素
+   set(int index, Object e)：将指定索引处的元素，替换成指定的元素，返回值为替换前的元素
       /*
        *  E set(int index, E)
        *  修改指定索引上的元素
@@ -84,7 +84,7 @@
         System.out.println(list);
       }
     d:查询元素方法
-   get(int index)：获取指定索引处的元素，并返回该元素
+   get(int index)：获取指定索引处的元素，并返回该元素
 
 
 ### 03迭代器的并发修改异常
